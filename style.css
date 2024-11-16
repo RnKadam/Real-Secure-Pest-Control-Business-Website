@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    --card-clr: #161922;
+	--body-clr: #191d28;
+	--primary-clr: #cc1e7a;
+	--heading-clr: #f5f5f5;
+	--text-clr: #d3d3d3;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 70px;
+    background: #080808;
+    color: #f5f5f5;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+	overflow: hidden;
+}
+
+#header nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 6%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #080808;
+}
+#header nav #sidemenu{
+    margin: 0;
+}
+.carousel{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img{
+	width: 100%;
+	height: 100%;
+	object-fit:contain;
+}
+
+.logo{
+    height: 70px;
+    width: 190px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 17px ;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #cc1e7a;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+/* ------------------------------------about------------------------------------------- */
+
+#about{
+    padding: 80px 0 40px;
+	width: 100%;
+	height: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 40%;
+}
+.about-col-1 img{
+    height: 70vh;
+    width: 100%;
+    border-radius: 50%;
+    border-style:hidden;     
+}
+.about-col-2{
+    flex-basis: 55%;
+    padding: 8px;
+    text-align:justify;
+    word-spacing:-0.8px;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+.secondary-text{
+    color: #d3d3d3;
+}
+
+/* ---------------------------------Testimonials----------------------------------- */
+
+#testimonials{
+	width: 100%;
+	height: auto;
+	padding:6% 8%;
+}
+#testimonials .section-header{
+	max-width: 700px;
+	text-align: center;
+	margin: 10px auto;
+}
+.section-header h1{
+	position: relative;
+	font-size: 38px;
+	color: var(--heading-clr);
+}
+.testimonials-container{
+	position: relative;
+}
+.testimonials-container .testimonial-card{
+	padding: 20px 40px;
+}
+.testimonial-card .test-card-body{
+	background-color: var(--card-clr);
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.12);
+	padding: 20px;
+
+}
+.test-card-body .quote{
+	display: flex;
+	align-items: center;
+}
+.test-card-body .quote i{
+	font-size: 45px;
+	color: var(--heading-clr);
+	margin-right: 20px;
+}
+.test-card-body .quote h2{
+	color: var(--heading-clr);
+}
+.test-card-body p{
+	margin: 10px 0px 15px;
+	font-size: 18px;
+	line-height: 1.5;
+	color: var(--text-clr);
+}
+.test-card-body .ratings{
+	margin-top: 20px;
+}
+.test-card-body .ratings i{
+	font-size: 17px;
+	color: #f0bf6a;
+	cursor: pointer;
+}
+.testimonial-card .profile{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+.profile .profile-image{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 15px;
+}
+.profile .profile-image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.profile .profile-desc{
+	display: flex;
+	flex-direction: column;
+}
+.profile-desc span:nth-child(1){
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--primary-clr);
+}
+.profile-desc span:nth-child(2){
+	font-size: 15px;
+	color: var(--text-clr);
+}
+.owl-nav{
+	position: absolute;
+	right: 20px;
+	bottom: -10px;
+}
+.owl-nav button{
+	border-radius: 50% !important;
+}
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i{
+	padding: 10px !important;
+	border-radius: 50%;
+	font-size: 18px !important;
+	background-color: var(--card-clr) !important;
+	color: var(--primary-clr);
+	cursor: pointer;
+	transition: 0.4s;
+}
+.owl-nav .owl-prev i:hover,
+.owl-nav .owl-next i:hover{
+	background-color: var(--primary-clr) !important;
+	color: #e9e9e9;
+}
+.owl-dots{
+	margin-top: 15px;
+}
+.owl-dots .owl-dot span{
+	background-color: #434753 !important;
+	padding: 6px !important;
+}
+.owl-dot.active span{
+	background-color: var(--primary-clr) !important;
+}
+
+/* ----------------------------------------contact--------------------------------------------------- */
+#contact{
+	padding-top: 50px;
+}
+
+#contact .container{
+	width: 100%;
+	height: auto;
+	padding: 50px 10px 0;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+	font-size: 18px;
+}
+.contact-left p i{
+    color:#ff66b3 ;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.social-icons a .fa-facebook{
+	color: #1877F2;
+}
+.social-icons a .fa-whatsapp{
+	color: #25D366;
+}
+.social-icons a .fa-facebook:hover{
+    color: #145dbf;
+    transform: translateY(-5px);
+}
+.social-icons a .fa-whatsapp:hover{
+    color: #1EBF57;
+    transform: translateY(-5px);
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #cc1e7a;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #ff66b3;
+}
+.btn.btn2{
+    display: inline-block;
+    background: #cc1e7a;
+	cursor: pointer;
+	transition:all 0.3s ease;
+}
+.btn.btn2:hover{
+    display: inline-block;
+    background: #e3238d;
+	color: #fff;
+	transform: scale(1.1);
+}
+
+.contact-right{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #f5f5f5;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+}
+
+#msg{
+	color: #61b752;
+	margin-top: -20px;
+	display: block;
+}
+
+
+/* --------------------- css for small screen ---------------------------------- */
+
+
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width :600px){
+	nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+	nav ul{
+        background: #cc1e7a;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+	
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+	#about{
+		padding-bottom: 0;
+	}
+
+	.about-col-1,.about-col-2{
+        flex-basis: 100%;
+		padding-bottom: 0;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    .about-col-1 img{
+        height: 100%;
+    }
+    .about-col-2{
+        font-size: 14px;
+		padding: 20px 30px 0 30px;
+		
+    }
+	#testimonials{
+		padding: 14% 6% 10% 6%;
+	}
+	.testimonials-container .testimonial-card{
+		padding: 10px 0 ;
+	}
+	.test-card-body p{
+		font-size: 14px;
+	}
+	.contact-left,.contact-right{
+		padding: 0 10px;
+        flex-basis: 100%;
+    }
+    .copyright{
+		margin-bottom: 80px;
+        font-size: 14px;
+    }
+	
+	#contact .container{
+		padding: 20px 20px 0 20px;
+	}
+	#msg{
+		color: #61b752;
+		margin-top: -20px;
+		display: block;
+	}
+	form input,form textarea{
+		width: 100%;
+		border: 0;
+		outline: none;
+		background: #262626;
+		padding: 15px;
+		margin: 15px 0;
+		color: #f5f5f5;
+		font-size: 18px;
+		border-radius: 6px;
+	}
+	
+	form .btn2{
+		padding: 14px 60px;
+		font-size: 18px;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+	
+}
