@@ -18,25 +18,25 @@ Build trust and visibility for a pest control business by showcasing expertise, 
 
 * Responsive Design: Mobile-first layout using CSS media queries and Bootstrap grid system
 ***
-🧩 # **Website Features**:
+🧩 **Website Features**:
 
-🏠 ## **Homepage Carousel**
+* 🏠 **Homepage Carousel**
 
 Visually engaging full-screen carousel slider highlighting the company’s values and professionalism.
 
-📖 **About Us Section**
+* 📖 **About Us Section**
 
 Introduces the company, detailing 15+ years of experience, licensed operations, eco-friendly solutions, and customer-focused services.
 
-🛠️ **Services Page (Linked)**
+* 🛠️ **Services Page (Linked)**
 
 Dedicated services section (via services.html) for in-depth explanation of pest control solutions offered.
 
-💬 **Testimonials Carousel**
+* 💬 **Testimonials Carousel**
 
 Integrated using Owl Carousel, this section dynamically showcases reviews from real clients
 
-📩 **Contact Section**
+* 📩 **Contact Section**
 
 * Email & Phone Integration
 
