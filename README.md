@@ -18,9 +18,9 @@ Build trust and visibility for a pest control business by showcasing expertise, 
 
 * Responsive Design: Mobile-first layout using CSS media queries and Bootstrap grid system
 ***
-🧩 **Website Features**:
+🧩 # **Website Features**:
 
-🏠 **Homepage Carousel**
+🏠 ## **Homepage Carousel**
 
 Visually engaging full-screen carousel slider highlighting the company’s values and professionalism.
 
