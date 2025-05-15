@@ -1,35 +1,57 @@
-# Pest-Control-Website
+# Real Secure Pest Control- Business Website
 
-Overview:
+🔍**Overview**
 
-This is a fully responsive and interactive personal portfolio website built with HTML, CSS, and JavaScript. Designed to showcase my skills, projects, and experiences, the portfolio serves as a central hub for recruiters and collaborators to understand my background and connect with me directly.
+A fully responsive and professionally designed website developed for Real Secure Pest Control, a licensed and certified pest management service provider. This project was built as a freelance web development assignment to create a credible digital presence, display services, share client testimonials, and streamline customer inquiries.
 ***
-🔧 Features:
+📌 **Purpose**
 
-* Home Section: Engaging introduction with a personal touch and professional branding.
-
-* About Me: Brief yet impactful summary highlighting my academic background, interests in web development, AI, and blockchain.
-
-* Tabbed Interface: Interactive tabs for viewing Skills (Java, UI/UX, Web Dev), Experience (NoQs Digital Internship), and Education timeline.
-
-* Services: Outlines the services I can offer – from Web App Development to Java Mentoring and UI/UX Design.
-
-* Projects Gallery
-
-* Contact Section: Includes a Google Sheet-based contact form, email, phone number, and social media links (LinkedIn, GitHub, Twitter, etc.).
-
-* Responsive Design: Optimized for all screen sizes with mobile-friendly navigation.
-
-* CV Download: Direct link to download my resume from Google Drive.
+Build trust and visibility for a pest control business by showcasing expertise, service offerings, government compliance, and real customer experiences.
 ***
-🧠 Key Technologies Used:
+🌐 **Technologies Used**
 
 * Frontend: HTML5, CSS3, JavaScript
 
-* Libraries & Tools: Font Awesome for icons, Google Apps Script for form handling
+* Frameworks & Libraries: Bootstrap 5, Owl Carousel, Font Awesome
 
-Design Approach: Minimalistic, intuitive UI with smooth user experience across sections
+* Integrations: Google Apps Script for contact form handling
+
+* Responsive Design: Mobile-first layout using CSS media queries and Bootstrap grid system
 ***
-🔗 Purpose & Impact:
+🧩 **Website Features**:
 
-The goal of this portfolio is to professionally present myself to potential employers and collaborators. It’s crafted to reflect my identity, tech stack proficiency, and past work in an organized, visually appealing way.
+🏠 **Homepage Carousel**
+
+Visually engaging full-screen carousel slider highlighting the company’s values and professionalism.
+
+📖 **About Us Section**
+
+Introduces the company, detailing 15+ years of experience, licensed operations, eco-friendly solutions, and customer-focused services.
+
+🛠️ **Services Page (Linked)**
+
+Dedicated services section (via services.html) for in-depth explanation of pest control solutions offered.
+
+💬 **Testimonials Carousel**
+
+Integrated using Owl Carousel, this section dynamically showcases reviews from real clients
+
+📩 **Contact Section**
+
+* Email & Phone Integration
+
+* WhatsApp Direct Chat
+
+* Form Submission with Google Sheet backend for seamless lead capture.
+***
+📱 **Mobile Friendly**
+
+Includes mobile-optimized navigation (hamburger menu) and responsive image loading (srcset for adaptive images).
+***
+💼 **Impact**
+
+* Delivered a modern and functional website that boosts brand reputation and supports lead generation.
+
+* Helped the business build trust with prospective clients by showcasing government licensing and verified client testimonials.
+
+* Strengthened customer communication through integrated contact channels.
