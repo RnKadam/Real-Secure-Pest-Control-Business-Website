@@ -38,11 +38,11 @@ Integrated using Owl Carousel, this section dynamically showcases reviews from r
 
 * 📩 **Contact Section**
 
-* Email & Phone Integration
+  * Email & Phone Integration
 
-* WhatsApp Direct Chat
+  * WhatsApp Direct Chat
 
-* Form Submission with Google Sheet backend for seamless lead capture.
+  * Form Submission with Google Sheet backend for seamless lead capture.
 ***
 📱 **Mobile Friendly**
 
